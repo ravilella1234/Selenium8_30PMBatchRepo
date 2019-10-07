@@ -1,0 +1,12 @@
+Initializing data , Or  & Log4j files.....
+Launched the browser :chrome
+Navigated to url :https://www.amazon.in
+Selected the item :Books by using the locator : searchDropdownBox
+Entered the text :Harry Potter by using the locator :twotabsearchtextbox
+Clicked on amazon searchButton by using the locator : //div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']
+Initializing data , Or  & Log4j files.....
+Launched the browser :chrome
+Navigated to url :https://www.amazon.in
+Selected the item :Books by using the locator : searchDropdownBox
+Entered the text :Harry Potter by using the locator :twotabsearchtextbox
+Clicked on amazon searchButton by using the locator : //div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']

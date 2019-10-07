@@ -3,6 +3,7 @@ package com.selenium;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,6 +31,9 @@ public class BaseTest
 		FileInputStream fis1=new FileInputStream(projectPath+"//or.properties");
 		or=new Properties();
 		or.load(fis1);
+		
+		FileInputStream fis2=new FileInputStream(projectPath+"//log4jconfig.properties");
+		PropertyConfigurator.configure(fis2);
 	}
 	
 	public static void launch(String browser)
